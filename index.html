@@ -53,12 +53,12 @@
             background: #111118;
             border-bottom: 1px solid var(--border-color);
             font-family: 'JetBrains Mono', monospace;
-            font-size: 12px;
+            font-size: 13px;
             -webkit-app-region: drag;
         }
         .topbar-menu span {
             color: var(--text-muted);
-            padding: 6px 12px;
+            padding: 8px 14px;
             cursor: pointer;
             transition: color 0.2s;
         }
@@ -410,11 +410,12 @@
             color: var(--text-muted);
         }
         .status-dot {
-            width: 6px;
-            height: 6px;
+            width: 7px;
+            height: 7px;
             border-radius: 50%;
             background: var(--green);
             display: inline-block;
+            box-shadow: 0 0 8px rgba(74, 222, 128, 0.6);
         }
 
         /* ===== GLOW EFFECTS ===== */
@@ -455,7 +456,7 @@
     <!-- ===== TOP BAR ===== -->
     <header class="editor-topbar">
         <div class="container-fluid">
-            <div class="d-flex f-items-center f-justify-between p-5-tb p-15-lr">
+            <div class="d-flex f-items-center f-justify-between p-12-tb p-15-lr">
                 <div class="d-flex f-items-center f-gap-10">
                     <div class="d-flex f-gap-5">
                         <span class="window-controls"><span class="ctrl-close"></span></span>
@@ -471,10 +472,7 @@
                     </div>
                 </div>
                 <div class="d-flex f-items-center f-gap-15">
-                    <a href="https://jonathanrbo.github.io/portfolio/" style="text-decoration: none;"><span style="color: var(--accent); font-weight: 700; font-size: 13px;">JR</span> <span style="color: var(--text-muted);">Studio</span></a>
-                </div>
-                <div class="d-flex f-items-center f-gap-15 xs-d-none">
-                    <span style="color: var(--accent); font-size: 12px; border-bottom: 1px solid var(--accent); padding-bottom: 2px;">Videos</span>
+                    <a href="https://jonathanrbo.github.io/portfolio/" style="text-decoration: none;"><span style="color: var(--accent); font-weight: 700; font-size: 18px; text-shadow: 0 0 15px rgba(233, 69, 96, 0.5);">JR</span> <span style="color: var(--text-primary); font-size: 16px; font-weight: 600;">Studio</span></a>
                 </div>
                 <div class="d-flex f-items-center f-gap-10 xs-d-none">
                     <span class="timecode"><span class="status-dot"></span> Ready</span>
