@@ -34,8 +34,8 @@ portfolio-videos/
 
 Faz parte de um conjunto de 3 portfolios interligados:
 
-- [Portfolio Principal](../portfolio/) — visão geral
-- [Portfolio de Artes](../portfolio-artes/) — design gráfico
+- [Portfolio Principal](https://jonathanrbo.github.io/portfolio/) — visão geral
+- [Portfolio de Artes](https://jonathanrbo.github.io/Projetos-de-artes/) — design gráfico
 - **Portfolio de Vídeos** ← você está aqui
 
 ## Autor
