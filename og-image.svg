@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0d0d"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560"/>
+      <stop offset="100%" style="stop-color:#00d4ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="4" fill="url(#accent)"/>
+  <rect x="0" y="626" width="1200" height="4" fill="url(#accent)"/>
+  <text x="600" y="200" text-anchor="middle" fill="#e94560" font-family="sans-serif" font-size="42" font-weight="700">JR Studio</text>
+  <text x="600" y="300" text-anchor="middle" fill="#e0e0e0" font-family="Arial, sans-serif" font-size="64" font-weight="700">Edição de Vídeo</text>
+  <text x="600" y="370" text-anchor="middle" fill="#7a7a8e" font-family="Arial, sans-serif" font-size="28">Portfolio de Video | Jonathan Ribeiro</text>
+  <text x="600" y="430" text-anchor="middle" fill="#00d4ff" font-family="monospace" font-size="22">Premiere Pro | DaVinci Resolve | After Effects</text>
+  <line x1="400" y1="470" x2="800" y2="470" stroke="#e94560" stroke-width="2" opacity="0.3"/>
+  <text x="600" y="510" text-anchor="middle" fill="#7a7a8e" font-family="monospace" font-size="18">// 1920x1080 | 30fps | H.264</text>
+</svg>

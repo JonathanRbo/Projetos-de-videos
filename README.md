@@ -1,23 +1,26 @@
-# JR Studio - Portfolio de Edição de Vídeo
+# JR Studio - Portfólio de Edição de Vídeo
 
-Portfolio pessoal de edição de vídeo com interface inspirada no Adobe Premiere Pro.
+Portfólio pessoal de edição de vídeo com interface inspirada no Adobe Premiere Pro.
 
 ## Sobre
 
-Página single-page que exibe amostras de trabalhos de edição de vídeo (Reels, conteúdo para Instagram) através de embeds diretos do Instagram. O layout simula a interface do Premiere Pro com topbar, monitor de preview, timeline e controles de playback.
+Página single-page que exibe amostras de trabalhos de edição de vídeo (Reels, conteúdo para Instagram) através de embeds diretos do Instagram. O layout simula a interface do Premiere Pro com topbar, monitor de preview, timeline com tracks e controles de playback.
 
 ## Tecnologias
 
-- **HTML5 / CSS3** — estrutura e estilização customizada
-- **[Squeleton v4](https://squeleton.dev)** — framework CSS utilitário (grid, flexbox, animações)
-- **WOW.js** — animações on-scroll
+- **HTML5 / CSS3** — Estrutura e estilização customizada
+- **[Squeleton v4](https://squeleton.dev)** — Framework CSS utilitário (grid, flexbox, animações)
+- **WOW.js** — Animações on-scroll
 - **Google Fonts** — JetBrains Mono + Inter
 
 ## Estrutura
 
 ```
 portfolio-videos/
-├── index.html    # Página única com todo o conteúdo
+├── index.html      # Página HTML (estrutura e conteúdo)
+├── style.css       # Estilos CSS separados
+├── favicon.svg     # Ícone da aba do navegador
+├── og-image.svg    # Imagem de preview para redes sociais
 └── README.md
 ```
 
@@ -32,11 +35,11 @@ portfolio-videos/
 
 ## Navegação
 
-Faz parte de um conjunto de 3 portfolios interligados:
+Faz parte de um conjunto de 3 portfólios interligados:
 
-- [Portfolio Principal](https://jonathanrbo.github.io/portfolio/) — visão geral
-- [Portfolio de Artes](https://jonathanrbo.github.io/Projetos-de-artes/) — design gráfico
-- **Portfolio de Vídeos** ← você está aqui
+- [Portfólio Principal](https://jonathanrbo.github.io/portfolio/) — visão geral
+- [Portfólio de Artes](https://jonathanrbo.github.io/Projetos-de-artes/) — design gráfico
+- **Portfólio de Vídeos** ← você está aqui
 
 ## Autor
 
